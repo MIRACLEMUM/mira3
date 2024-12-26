@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Container and Section Styles */
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    gap: 10px;
+}
+
+.skill {
+    padding: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    flex: 1;
+    text-align: center;
+}
+
+/* Contact Grid */
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.contact-item {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #444;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form input,
+form textarea,
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2575fc;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #6a11cb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #111;
+}
+
+/* Profile Picture */
+.profile-picture {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
